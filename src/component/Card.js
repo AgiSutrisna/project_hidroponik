@@ -10,7 +10,13 @@ import {
 import Apple from "../img/apple.png";
 import Selada from "../img/selada.png";
 import Pupuk from "../img/pupuk.png";
-// import Orange from "../img/orange.png";
+import Timun from "../img/timun.png";
+import Seledri from "../img/seledri.png";
+import Tomat from "../img/tomat.png";
+import BawangDaun from "../img/bawang_daun.png";
+import BawangMerah from "../img/bawang_merah.png";
+import Cabe from "../img/cabe.png";
+import Terong from "../img/terong.png";
 
 function ProductCard({ nama, harga, img }) {
   return (
@@ -43,12 +49,16 @@ function ProductCard({ nama, harga, img }) {
 
 function ProductList() {
   const products = [
-    { nama: "Apel", harga: 5000, img: Apple },
+    { nama: "Timun", harga: 5000, img: Timun },
     { nama: "Selada", harga: 3000, img: Selada },
-    { nama: "Pupuk Kandang", harga: 7000, img: Pupuk },
-    { nama: "Jeruk", harga: 4000, img: Selada },
-    { nama: "Jeruk", harga: 4000, img: Selada },
-    { nama: "Jeruk", harga: 4000, img: Selada },
+    { nama: "Tomat", harga: 7000, img: Tomat },
+    { nama: "Seledri", harga: 4000, img: Seledri },
+    { nama: "Bawang Daun", harga: 4000, img: BawangDaun },
+    { nama: "Bawang Merah", harga: 4000, img: BawangMerah },
+    { nama: "Terong", harga: 4000, img: Terong },
+    { nama: "Cabe", harga: 4000, img: Cabe },
+    { nama: "Apel", harga: 4000, img: Apple },
+    { nama: "Pupuk Kandang", harga: 4000, img: Pupuk },
   ];
 
   return (

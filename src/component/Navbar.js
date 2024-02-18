@@ -3,7 +3,7 @@ import React from 'react';
 function Navbar() {
     return (
 <div className="w-full">
-	<section id="bottom-navigation" className="block fixed inset-x-0 bottom-0 z-10 bg-white shadow">
+	<section id="bottom-navigation" className="block fixed inset-x-0 bottom-0 z-10 bg-[#F5F5F5] shadow">
 		<div id="tabs" className="flex justify-between">
 			<a href="home.js" className="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
 				<svg width="25" height="25" viewBox="0 0 42 42" className="inline-block mb-1">
